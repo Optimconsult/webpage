@@ -24,17 +24,17 @@ export function Enterprise() {
       <h2 className="text-[35px] font-semibold mb-12 md:ml-4 lg:ml-8">
         {enterpriseData.partners}
       </h2>
-      <div className="grid grid-cols-2 gap-y-20">
+      <div className="grid grid-cols-2 md:grid-cols-3 gap-y-20 ">
         <Link to={"/enterpriseDetail"}>
           <Partner image={userOne} name="Eduardo Uribe" />
         </Link>
-        <Link to={"/enterpriseDetail"}>
+        {/* <Link to={"/enterpriseDetail"}>
           <Partner image={userTwo} name="Jaime Bermúdez" />
-        </Link>
+        </Link> */}
         <Link to={"/enterpriseDetail"}>
           <Partner image={userThree} name="Santiago Arango" />
         </Link>
-        <Link to={"/enterpriseDetail"}>
+        <Link to={"/enterpriseDetail"} className="col-span-2 md:col-span-1">
           <Partner image={userFour} name="Julián Páez" />
         </Link>
       </div>

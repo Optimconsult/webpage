@@ -37,14 +37,14 @@ function EnterpriseDetail() {
         />
         <hr className="w-3/5 mx-auto border-black md:hidden" />
 
-        <PartnerDetail
+        {/* <PartnerDetail
           image={userTwo}
           name="Jaime Bermúdez"
           description={
             "Abogado (Universidad de los Andes), Ph.D. en ciencia política (Universidad de Oxford). Ha sido consultor privado en estrategia de comunicaciones, asesor de la presidencia de la república, embajador y ministro de relaciones exteriores. Durante los últimos años se desempeñó como presidente de Lazard (Banco de inversión) en Colombia, miembro de varias juntas directivas, del consejo superior de la universidad de los Andes y otras organizaciones sin ánimo de lucro."
           }
-        />
-        <hr className="w-3/5 mx-auto border-black md:hidden" />
+        /> */}
+        {/* <hr className="w-3/5 mx-auto border-black md:hidden" /> */}
         <PartnerDetail
           image={userThree}
           name="Santiago Arango"
